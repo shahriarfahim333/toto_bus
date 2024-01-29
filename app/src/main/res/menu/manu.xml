@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/pro"
+            android:title="Profile"
+            android:icon="@drawable/profile"
+            />
+        <item android:id="@+id/marks"
+            android:title="Book Marks"
+            android:icon="@drawable/bookmark"
+            />
+        <item android:id="@+id/Set"
+            android:title="Settings"
+            android:icon="@drawable/settings"
+            />
+        <item android:id="@+id/log"
+            android:title="Log Out"
+            />
+    </group>
+
+</menu>

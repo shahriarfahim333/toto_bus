@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "606109838547",
+    "project_id": "toto-bus-app",
+    "storage_bucket": "toto-bus-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606109838547:android:b03fefcfb210c9652bb826",
+        "android_client_info": {
+          "package_name": "com.example.toto_bus_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK1lV-Ad9Tx7ZmPKEEf9YdsvOw9uwYpCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

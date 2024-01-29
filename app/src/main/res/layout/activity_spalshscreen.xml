@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreenActivity"
+    >
+
+
+    <ImageView
+        android:id="@+id/toto"
+        android:layout_width="319dp"
+        android:layout_height="289dp"
+        android:layout_marginTop="144dp"
+        android:src="@drawable/TOTO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/fahim"
+        android:layout_width="101dp"
+        android:layout_height="34dp"
+        android:src="@drawable/fahim"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/toto"
+        app:layout_constraintHorizontal_bias="0.743"
+        app:layout_constraintStart_toStartOf="@+id/toto"
+        app:layout_constraintTop_toBottomOf="@+id/toto"
+        app:layout_constraintVertical_bias="0.871" />
+
+    <TextView
+        android:layout_width="111dp"
+        android:layout_height="30dp"
+        android:text="Powerd by  "
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/fahim"
+        app:layout_constraintEnd_toStartOf="@+id/fahim"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fahim"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

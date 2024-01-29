@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/roadsnek"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:fontFamily="@font/arbutus"
+        android:text="WELCOME BACK!"
+        android:textColor="#179AD6"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/wcli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/arbutus"
+        android:text="LOG IN!"
+        android:textColor="#179AD6"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/et2L"
+        android:layout_width="363dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
+        android:hint="ENTRE YOUR EMAIL......"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:background="#77FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/wcli"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/wcli"
+        app:layout_constraintTop_toBottomOf="@+id/wcli" />
+
+    <EditText
+        android:id="@+id/et3L"
+        android:layout_width="363dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:hint="PASSWORD......"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:background="#77FFFFFF"
+        app:layout_constraintStart_toStartOf="@+id/et2L"
+        app:layout_constraintTop_toBottomOf="@+id/et2L" />
+
+    <Button
+        android:id="@+id/btnL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#9BC33D"
+        android:text="SING UP"
+        app:layout_constraintEnd_toEndOf="@+id/et3L"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/et3L"
+        app:layout_constraintTop_toBottomOf="@+id/et3L" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="244dp"
+        android:text="You don't have a Count? SingUp!"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnL"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/btnL"
+        app:layout_constraintTop_toBottomOf="@+id/btnL"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
